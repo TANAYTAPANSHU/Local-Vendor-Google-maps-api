@@ -1,7 +1,7 @@
 const { default: Axios } = require('axios');
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3000;
 const mongoose = require('mongoose');
 const Store = require('./api/models/stores.js');
 const axios = require('axios');
